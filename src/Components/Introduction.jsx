@@ -66,7 +66,10 @@ function Introduction() {
       <div className="unordered-list-section">
         <div id="border-right" className="text-container">
           <ul>
-            A. Personal Identification Data
+            <h2 className="comon-heading-section-for-ul">
+              A. Personal Identification Data
+            </h2>
+
             <li>First Name, Last name </li>
             <li>Job title & Company</li>
             <li>Parents Name & Profession</li>
@@ -74,19 +77,25 @@ function Introduction() {
             <li>Photographs</li>
           </ul>
           <ul>
-            B. Identification Data
+            <h2 className="comon-heading-section-for-ul">
+              B. Identification Data
+            </h2>
+
             <li>Social security or tax identification numbers</li>
             <li>Aadhar number and PAN</li>
           </ul>
           <ul>
-            C. Financial Data
+            <h2 className="comon-heading-section-for-ul">C. Financial Data</h2>
             <li>Bank Account information </li>
             <li>Salary Information</li>
             <li>Payment gateway account details</li>
             <li>E-wallet account details</li>
           </ul>
           <ul>
-            D. Personal Characteristics
+            <h2 className="comon-heading-section-for-ul">
+              D. Personal Characteristics
+            </h2>
+
             <li>Age </li>
             <li>Gender</li>
             <li>Date of Birth</li>
@@ -95,13 +104,16 @@ function Introduction() {
             <li>Caste</li>
           </ul>
           <ul>
-            E. Contact Data
+            <h2 className="comon-heading-section-for-ul">E. Contact Data</h2>
             <li>Postal address </li>
             <li>Email address</li>
             <li>Phone number</li>
           </ul>
           <ul>
-            F. Education and Recruitment Data
+            <h2 className="comon-heading-section-for-ul">
+              F. Education and Recruitment Data
+            </h2>
+
             <li>Educational qualification(s) </li>
             <li>Working goals</li>
             <li>Post-qualification experience</li>
@@ -109,7 +121,10 @@ function Introduction() {
         </div>
         <div className="text-container">
           <ul>
-            G. Electronic Identification Data
+            <h2 className="comon-heading-section-for-ul">
+              G. Electronic Identification Data
+            </h2>
+
             <li>Login credentials (If you are a registered user) </li>
             <li>Visitors IP Data</li>
             <li>Date and time of website visit</li>
@@ -121,7 +136,8 @@ function Introduction() {
             <li>Pixel tags</li>
           </ul>
           <ul>
-            H. Inquiries
+            <h2 className="comon-heading-section-for-ul">H. Inquiries</h2>
+
             <li>
               Personal Data stated in the form – for example: Name, address,
               phone number, country Payment details (card numbers, card type)
@@ -138,7 +154,10 @@ function Introduction() {
             </li>
           </ul>
           <ul>
-            I. User Generated Data
+            <h2 className="comon-heading-section-for-ul">
+              I. User Generated Data
+            </h2>
+
             <li>Projects and Assignments submitted Response</li>
             <li>Peer feedback and grading</li>
             <li>Program performance data</li>
@@ -153,12 +172,14 @@ function Introduction() {
             </li>
           </ul>
           <ul>
-            J. Marketing Data
+            <h2 className="comon-heading-section-for-ul">J. Marketing Data</h2>
             <li>Your preferences in receiving marketing information from us</li>
             <li>Your communication preferences</li>
           </ul>
           <ul>
-            K. Behavioural Data
+            <h2 className="comon-heading-section-for-ul">
+              K. Behavioural Data
+            </h2>
             <li>
               Data inferred or assumed information relating to your behaviour
               and interests based on your online activity on our sites
@@ -654,9 +675,11 @@ function Introduction() {
           <table>
             <thead>
               <tr>
-                <th style={{width: "30%"}}>Recipients</th>
-                <th style={{width: "30%"}}>Category(ies) of Personal Data we share</th>
-                <th style={{width: "30%"}}>Why we share it</th>
+                <th style={{ width: "30%" }}>Recipients</th>
+                <th style={{ width: "30%" }}>
+                  Category(ies) of Personal Data we share
+                </th>
+                <th style={{ width: "30%" }}>Why we share it</th>
                 <th>Location(s)</th>
               </tr>
             </thead>
@@ -715,18 +738,15 @@ function Introduction() {
                   </ul>
                 </td>
                 <td>
-                  
-                    <p>
-                      If you are taking a Program that is sponsored or paid for
-                      by your employer or a sponsor, or if you have availed a
-                      scholarship from a third-party scholarship provider, we
-                      may share your Personal Data and grades, evaluations or
-                      progress in the Program with your
-                      employer/sponsor/scholarship provider. This information
-                      may be shared at any time during the Program or
-                      afterwards.
-                    </p>
-                  
+                  <p>
+                    If you are taking a Program that is sponsored or paid for by
+                    your employer or a sponsor, or if you have availed a
+                    scholarship from a third-party scholarship provider, we may
+                    share your Personal Data and grades, evaluations or progress
+                    in the Program with your employer/sponsor/scholarship
+                    provider. This information may be shared at any time during
+                    the Program or afterwards.
+                  </p>
                 </td>
                 <td>
                   <article>
@@ -754,20 +774,17 @@ function Introduction() {
                   </ul>
                 </td>
                 <td>
-                  
-                    <p>
-                      We provide access to or share your information with
-                      operations and maintenance contractors and other third
-                      parties who perform services on our behalf strictly on
-                      confidential terms. They provide a variety of services to
-                      us, including billing, sales, marketing, test proctoring,
-                      couriers, mentoring, recruitment consulting, product
-                      content and features, advertising, analytics, research,
-                      customer service, data storage, security, fraud
-                      prevention, credit facilities, payment processing and
-                      legal services
-                    </p>
-                  
+                  <p>
+                    We provide access to or share your information with
+                    operations and maintenance contractors and other third
+                    parties who perform services on our behalf strictly on
+                    confidential terms. They provide a variety of services to
+                    us, including billing, sales, marketing, test proctoring,
+                    couriers, mentoring, recruitment consulting, product content
+                    and features, advertising, analytics, research, customer
+                    service, data storage, security, fraud prevention, credit
+                    facilities, payment processing and legal services
+                  </p>
                 </td>
                 <td>
                   <article>
