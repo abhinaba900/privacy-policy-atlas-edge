@@ -655,8 +655,8 @@ function Introduction() {
             <thead>
               <tr>
                 <th style={{width: "30%"}}>Recipients</th>
-                <th style={{width: "35%"}}>Category(ies) of Personal Data we share</th>
-                <th style={{width: "25%"}}>Why we share it</th>
+                <th style={{width: "30%"}}>Category(ies) of Personal Data we share</th>
+                <th style={{width: "30%"}}>Why we share it</th>
                 <th>Location(s)</th>
               </tr>
             </thead>
@@ -715,8 +715,8 @@ function Introduction() {
                   </ul>
                 </td>
                 <td>
-                  <article>
-                    <h5>
+                  
+                    <p>
                       If you are taking a Program that is sponsored or paid for
                       by your employer or a sponsor, or if you have availed a
                       scholarship from a third-party scholarship provider, we
@@ -725,8 +725,8 @@ function Introduction() {
                       employer/sponsor/scholarship provider. This information
                       may be shared at any time during the Program or
                       afterwards.
-                    </h5>
-                  </article>
+                    </p>
+                  
                 </td>
                 <td>
                   <article>
@@ -754,8 +754,8 @@ function Introduction() {
                   </ul>
                 </td>
                 <td>
-                  <article>
-                    <h5>
+                  
+                    <p>
                       We provide access to or share your information with
                       operations and maintenance contractors and other third
                       parties who perform services on our behalf strictly on
@@ -766,8 +766,8 @@ function Introduction() {
                       customer service, data storage, security, fraud
                       prevention, credit facilities, payment processing and
                       legal services
-                    </h5>
-                  </article>
+                    </p>
+                  
                 </td>
                 <td>
                   <article>
@@ -846,12 +846,12 @@ function Introduction() {
                 </td>
                 <td>
                   <article>
-                    <h5>
+                    <p>
                       If you opt for any of our recruitment services or if you
                       participate in any of our recruitment activities, we will
                       be sharing your information with recruiters and potential
                       employers.
-                    </h5>
+                    </p>
                   </article>
                 </td>
                 <td>
@@ -877,7 +877,7 @@ function Introduction() {
                 </td>
                 <td>
                   <article>
-                    <h5>
+                    <p>
                       We share your Personal Data with our associates for
                       business purposes. FTSF may disclose and/or transfer your
                       Personal Data to an acquirer, assignee or other successor
@@ -885,7 +885,7 @@ function Introduction() {
                       reorganisation of all or substantially all of the equity,
                       business or assets of FTSF to which your Personal Data
                       relates
-                    </h5>
+                    </p>
                   </article>
                 </td>
                 <td>

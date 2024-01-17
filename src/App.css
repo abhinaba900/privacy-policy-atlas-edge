@@ -1,4 +1,9 @@
 /* Common styles for both desktop and mobile */
+
+*{
+  margin: 0;
+  padding: 0;
+}
 .App-header {
   width: 100%;
   height: 25em;
