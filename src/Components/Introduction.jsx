@@ -65,37 +65,34 @@ function Introduction() {
       </div>
       <div className="unordered-list-section">
         <div id="border-right" className="text-container">
+          <h2 className="comon-heading-section-for-ul">
+            A. Personal Identification Data
+          </h2>
           <ul>
-            <h2 className="comon-heading-section-for-ul">
-              A. Personal Identification Data
-            </h2>
-
             <li>First Name, Last name </li>
             <li>Job title & Company</li>
             <li>Parents Name & Profession</li>
             <li>Signature</li>
             <li>Photographs</li>
           </ul>
+          <h2 className="comon-heading-section-for-ul">
+            B. Identification Data
+          </h2>
           <ul>
-            <h2 className="comon-heading-section-for-ul">
-              B. Identification Data
-            </h2>
-
             <li>Social security or tax identification numbers</li>
             <li>Aadhar number and PAN</li>
           </ul>
+          <h2 className="comon-heading-section-for-ul">C. Financial Data</h2>
           <ul>
-            <h2 className="comon-heading-section-for-ul">C. Financial Data</h2>
             <li>Bank Account information </li>
             <li>Salary Information</li>
             <li>Payment gateway account details</li>
             <li>E-wallet account details</li>
           </ul>
+          <h2 className="comon-heading-section-for-ul">
+            D. Personal Characteristics
+          </h2>
           <ul>
-            <h2 className="comon-heading-section-for-ul">
-              D. Personal Characteristics
-            </h2>
-
             <li>Age </li>
             <li>Gender</li>
             <li>Date of Birth</li>
@@ -103,28 +100,26 @@ function Introduction() {
             <li>Nationality </li>
             <li>Caste</li>
           </ul>
+          <h2 className="comon-heading-section-for-ul">E. Contact Data</h2>
           <ul>
-            <h2 className="comon-heading-section-for-ul">E. Contact Data</h2>
             <li>Postal address </li>
             <li>Email address</li>
             <li>Phone number</li>
           </ul>
+          <h2 className="comon-heading-section-for-ul">
+            F. Education and Recruitment Data
+          </h2>
           <ul>
-            <h2 className="comon-heading-section-for-ul">
-              F. Education and Recruitment Data
-            </h2>
-
             <li>Educational qualification(s) </li>
             <li>Working goals</li>
             <li>Post-qualification experience</li>
           </ul>
         </div>
         <div className="text-container">
+          <h2 className="comon-heading-section-for-ul">
+            G. Electronic Identification Data
+          </h2>
           <ul>
-            <h2 className="comon-heading-section-for-ul">
-              G. Electronic Identification Data
-            </h2>
-
             <li>Login credentials (If you are a registered user) </li>
             <li>Visitors IP Data</li>
             <li>Date and time of website visit</li>
@@ -135,9 +130,8 @@ function Introduction() {
             <li>Words searched for</li>
             <li>Pixel tags</li>
           </ul>
+          <h2 className="comon-heading-section-for-ul">H. Inquiries</h2>
           <ul>
-            <h2 className="comon-heading-section-for-ul">H. Inquiries</h2>
-
             <li>
               Personal Data stated in the form – for example: Name, address,
               phone number, country Payment details (card numbers, card type)
@@ -153,11 +147,10 @@ function Introduction() {
               maintenance interactions with us.
             </li>
           </ul>
+          <h2 className="comon-heading-section-for-ul">
+            I. User Generated Data
+          </h2>
           <ul>
-            <h2 className="comon-heading-section-for-ul">
-              I. User Generated Data
-            </h2>
-
             <li>Projects and Assignments submitted Response</li>
             <li>Peer feedback and grading</li>
             <li>Program performance data</li>
@@ -171,15 +164,13 @@ function Introduction() {
               test/assessment rules, area of interests
             </li>
           </ul>
+          <h2 className="comon-heading-section-for-ul">J. Marketing Data</h2>
           <ul>
-            <h2 className="comon-heading-section-for-ul">J. Marketing Data</h2>
             <li>Your preferences in receiving marketing information from us</li>
             <li>Your communication preferences</li>
           </ul>
+          <h2 className="comon-heading-section-for-ul">K. Behavioural Data</h2>
           <ul>
-            <h2 className="comon-heading-section-for-ul">
-              K. Behavioural Data
-            </h2>
             <li>
               Data inferred or assumed information relating to your behaviour
               and interests based on your online activity on our sites
@@ -194,7 +185,7 @@ function Introduction() {
         </p>
       </div>
       <div className="text-container">
-        <h3 className="heading-section">Special Categories of Personal Data</h3>
+      <h3 className="heading-section">Special Categories of Personal Data</h3>
         <article className="paragraph-section">
           Special Category of Personal Data includes details about your race or
           ethnicity, religious or philosophical beliefs, sex life, sexual
@@ -296,7 +287,7 @@ function Introduction() {
         <article className="paragraph-section">
           What types of cookies do we use?
         </article>
-        <article>
+        <article className="paragraph-section">
           There are a few different types of cookies, however, our website uses:
         </article>
         <ul>
