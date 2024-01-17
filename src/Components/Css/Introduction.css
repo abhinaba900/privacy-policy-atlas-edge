@@ -11,6 +11,18 @@ body {
 * table tr td {
   margin: 0;
 }
+p,
+ul,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+figure {
+  margin: 0;
+  padding: 0;
+}
 
 .text-container {
   padding: 1.5em 6em;
@@ -33,7 +45,10 @@ ul > li {
   font-size: 1.25em;
   color: var(--textColor);
 }
-
+ul {
+  padding: 1.3555em;
+  margin-top: 0.5em;
+}
 .unordered-list-section {
   color: var(--textColor);
   display: grid;
@@ -105,18 +120,6 @@ h6 {
   text-align: center;
 }
 
-p,
-ul,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-figure {
-  margin: 0;
-  padding: 0;
-}
 
 @media screen and (max-width: 768px) {
   .unordered-list-section {
