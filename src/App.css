@@ -20,31 +20,51 @@ body {
   margin: 0;
   padding: 0;
 }
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    outline: none !important;
+    outline-color: var(--white);
+}
 .App-header {
   width: 100%;
-  height: 25em;
+  height: 16em;
   display: flex;
   justify-content: center;
   align-items: center;
-  background: #0f206c 0% 0% no-repeat padding-box;
+  /* background: #0f206c 0% 0% no-repeat padding-box; */
   opacity: 1;
 }
 
+.route-section{
+  color: var(--white);
+  /* background: #0f206c 0% 0% no-repeat padding-box; */
+  position: absolute;
+  top: 4%;
+  left: 8%;
+}
 .privacy,
 .policy {
   font-family: poppins;
   color: #ffffff;
   opacity: 1;
 }
+
+.App{
+  background-image: url("http://139.59.48.12/atlas-edge/wp-content/themes/astra/assets/images/banner-bg-blue.jpg");
+}
 .common-banner-heading {
   color: #231f20;
   font-size: 7.1875em;
   font-weight: 400;
-  letter-spacing: 0px;
+  letter-spacing: 3px;
   line-height: 1.2;
   margin: 0;
   text-align: center;
   position: absolute;
+  top: 17%;
   left: 50%;
   vertical-align: middle;
   transform: translate(-50%, -50%);
@@ -90,6 +110,6 @@ body {
 
 @media screen and (max-width: 932px) {
   .common-banner-heading {
-    font-size: 3em;
+    font-size: 2.5em;
   }
 }
