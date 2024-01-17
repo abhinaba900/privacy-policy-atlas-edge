@@ -34,13 +34,13 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  /* background: #0f206c 0% 0% no-repeat padding-box; */
+  background: var(--071D49) 0% 0% no-repeat padding-box;
   opacity: 1;
 }
 
 .route-section{
   color: var(--white);
-  /* background: #0f206c 0% 0% no-repeat padding-box; */
+  background: var(--071D49) 0% 0% no-repeat padding-box;
   position: absolute;
   top: 4%;
   left: 8%;
@@ -52,9 +52,7 @@ body {
   opacity: 1;
 }
 
-.App{
-  background-image: url("http://139.59.48.12/atlas-edge/wp-content/themes/astra/assets/images/banner-bg-blue.jpg");
-}
+
 .common-banner-heading {
   color: #231f20;
   font-size: 7.1875em;
